@@ -1,0 +1,27 @@
+.main_frame{
+    padding-top: 100px;
+    max-width: 1200px;
+    max-height: 794px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.slaider{
+    display: none;   
+  }
+
+  @media (max-width: 1200px){
+     .main_frame{
+      display: none;
+     }
+     .slaider{
+      display:block
+  }
+  }
+
+.frame{
+    display: flex;
+   justify-content: space-between;
+}
